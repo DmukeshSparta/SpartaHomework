@@ -1,0 +1,7 @@
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorOPPHomework\CalculatorOPPHomework\obj\Debug\CalculatorOPPHomework.csprojAssemblyReference.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorOPPHomework\CalculatorOPPHomework\obj\Debug\CalculatorOPPHomework.csproj.CoreCompileInputs.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorOPPHomework\CalculatorOPPHomework\bin\Debug\CalculatorOPPHomework.exe.config
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorOPPHomework\CalculatorOPPHomework\bin\Debug\CalculatorOPPHomework.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorOPPHomework\CalculatorOPPHomework\bin\Debug\CalculatorOPPHomework.pdb
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorOPPHomework\CalculatorOPPHomework\obj\Debug\CalculatorOPPHomework.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorOPPHomework\CalculatorOPPHomework\obj\Debug\CalculatorOPPHomework.pdb
