@@ -7,20 +7,19 @@ namespace Lab1OutProperties
         static void Main(string[] args)
         {
             int x, y, z;
+            int sum = 0;
 
-            Addition(out x, out y, out z);
+            Addition(20, 30, 40);
 
-            Console.WriteLine("The Addition of the Value: {0}", x, y, z);
+            Console.WriteLine("The Addition of the Value: {0}", sum);
+            Console.WriteLine("The Multiplication of the value: {0}", sum);
             Console.ReadLine();
 
         }
-        public static void Addition(out int x, out int y, out int z)
+        public int Addition(int x, int y, int z, out int sum)
         {
-            x = 20;
-            y = 30;
-            z = 40;
-
-            x += y += z;
+            sum = x + y + z;
+            return x * y * z;
         }
     }
 }

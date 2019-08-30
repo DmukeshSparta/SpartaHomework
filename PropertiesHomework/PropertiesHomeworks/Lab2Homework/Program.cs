@@ -16,8 +16,7 @@ namespace Lab2Homework
 
         public static void Age(Cats cat)
         {
-            cat.Name = "sissy";
-            cat.Age = 5;
+            cat.Age += 5;
         }
     }
 }
