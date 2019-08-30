@@ -6,6 +6,12 @@ namespace Lab1OutProperties
     {
         static void Main(string[] args)
         {
+            /*
+             * Declare a method which inputs three integers and returns the product 
+             * ie the value of the three numbers multiplied together. Also return an out 
+             * parameter which contains the sum of the three integers.
+             */
+
             int addition;
             int sum = 0;
 
