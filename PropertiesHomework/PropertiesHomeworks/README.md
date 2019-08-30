@@ -1,5 +1,5 @@
-# Week 3 Day 4 LAB Homework / Folder: Lab1OutProperties
-Lab 1 : Out parameters
+# Week 3 Day 4 LAB Homework 
+# Lab 1 : Out parameters / Folder: Lab1OutProperties
 Declare a method which inputs three integers and returns the product ie the value of the three numbers multiplied together. Also return an out parameter which contains the sum of the three integers.
 
 # Lab 2 : Passing an object into a method / Folder: Lab2Homework
