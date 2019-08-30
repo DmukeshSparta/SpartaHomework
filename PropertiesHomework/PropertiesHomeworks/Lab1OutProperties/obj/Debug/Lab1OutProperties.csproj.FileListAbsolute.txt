@@ -1,0 +1,7 @@
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\PropertiesHomework\PropertiesHomeworks\Lab1OutProperties\bin\Debug\Lab1OutProperties.exe.config
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\PropertiesHomework\PropertiesHomeworks\Lab1OutProperties\bin\Debug\Lab1OutProperties.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\PropertiesHomework\PropertiesHomeworks\Lab1OutProperties\bin\Debug\Lab1OutProperties.pdb
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\PropertiesHomework\PropertiesHomeworks\Lab1OutProperties\obj\Debug\Lab1OutProperties.csprojAssemblyReference.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\PropertiesHomework\PropertiesHomeworks\Lab1OutProperties\obj\Debug\Lab1OutProperties.csproj.CoreCompileInputs.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\PropertiesHomework\PropertiesHomeworks\Lab1OutProperties\obj\Debug\Lab1OutProperties.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\PropertiesHomework\PropertiesHomeworks\Lab1OutProperties\obj\Debug\Lab1OutProperties.pdb
