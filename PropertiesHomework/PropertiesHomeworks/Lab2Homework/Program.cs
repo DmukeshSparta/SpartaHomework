@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web.Script.Serialization;
 
 namespace Lab2Homework
 {
@@ -6,17 +7,14 @@ namespace Lab2Homework
     {
         static void Main(string[] args)
         {
-            Cats cat = new Cats("Sissy", 2);
-            Console.WriteLine("Before: {0}, {1}", cat.Name, cat.Age);
-            Age(cat);
-            Console.WriteLine("After: {0}, {1}", cat.Name, cat.Age);
+            Cats TibbyCat = new Cats("Tibby", 2);
+            Cats.Age(TibbyCat);
+            Cats.Age(TibbyCat);
+
+            var json = new JavaScriptSerializer().Serialize(TibbyCat);
+            Console.WriteLine(json.ToString());
 
             Console.ReadLine();
-        }
-
-        public static void Age(Cats cat)
-        {
-            cat.Age += 5;
         }
     }
 }

@@ -6,10 +6,8 @@ namespace Lab1OutProperties
     {
         static void Main(string[] args)
         {
-            int x, y, z;
+            int addition;
             int sum = 0;
-
-            Addition(20, 30, 40);
 
             Console.WriteLine("The Addition of the Value: {0}", sum);
             Console.WriteLine("The Multiplication of the value: {0}", sum);

@@ -2,37 +2,17 @@
 {
     class Cats
     {
-        private string name;
-        private int age;
+        public string name;
+        public int age;
 
         public Cats(string name, int age)
         {
             this.name = name;
             this.age = age;
         }
-
-        public string Name
+        public static void Age(Cats cat)
         {
-            get
-            {
-                return name;
-            }
-            set
-            {
-                name = value;
-            }
-        }
-
-        public int Age
-        {
-            get
-            {
-                return age;
-            }
-            set
-            {
-                age = value;
-            }
+            cat.age += 5;
         }
     }
 }
