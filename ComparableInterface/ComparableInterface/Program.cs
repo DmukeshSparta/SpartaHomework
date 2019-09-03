@@ -6,7 +6,7 @@ namespace ComparableInterface
     {
         static void Main(string[] args)
         {
-            var a = new Item();
+/*            var a = new Item();
             var b = new Item();
             a.Name = "Bob";
             b.Name = "Carly";
@@ -16,13 +16,16 @@ namespace ComparableInterface
             Console.WriteLine("{0} compared to {1} is {2}", a.Name, b.Name, a.CompareTo(b));
             a.Name = "Edward";
             b.Name = "Carly";
-            Console.WriteLine("{0} compared to {1} is {2}", a.Name, b.Name, a.CompareTo(b));
+            Console.WriteLine("{0} compared to {1} is {2}", a.Name, b.Name, a.CompareTo(b));*/
 
             Comparison comp = new Comparison();
-            comp.CompareByName();
-            comp.CompareByLength();
+            Comparison comp1 = new Comparison();
+            comp.Name = "Dipak";
+            comp1.Name = "brandon";
+            comp.CompareByName(comp1);
+            comp.CompareByLength(comp1);
 
-                
+
             Console.ReadLine();
         }
     }
@@ -39,50 +42,54 @@ namespace ComparableInterface
 
     interface ICompareByName
     {
-        int CompareByName();
+        int CompareByName(object name);
         
     }
     interface ICompareByLength
     {
-        int CompareByLength();
+        int CompareByLength(object name);
     }
 
-    class Comparison : ICompareByName, ICompareByLength
+    class Comparison : ICompareByLength, ICompareByName
     {
         public string Name { get; set; }
 
-        public int CompareByLength()
+        public int CompareByLength(object name)
         {
-            if (Name.Length > Name.Length)
+            Comparison that = name as Comparison;
+            if (Name.Length > that.Name.Length)
             {
-                Console.Write("String 1 is longer than string 2.");
+                Console.WriteLine($"{Name} longer as alphabetically {that.Name}.");
             }
-            else if (Name.Length == Name.Length)
+            else if (Name.Length == that.Name.Length)
             {
-                Console.Write("String is same length.");
+                Console.WriteLine($"Both {Name} and {that.Name} have same value.");
             }
-            else if (Name.Length < Name.Length)
+            else if (Name.Length < that.Name.Length)
             {
-                Console.Write("String 1 is shorter than string 2");
+                Console.WriteLine($"{Name} shorter as alphabetically {that.Name}.");
             }
-            return int.Parse(Name);
+            return 0;
+
         }
 
-        public int CompareByName()
+        public int CompareByName(object name)
         {
-            if (Name.CompareTo(Name) == 0)
+            Comparison that = name as Comparison;
+
+            if (string.Compare(Name,that.Name) == 0)
             {
-                Console.WriteLine($"Both strings have same value.");
+                Console.WriteLine($"Both {Name} and {that.Name} have same value.");
             }
-            else if (Name.CompareTo(Name) < 0)
+            else if (string.Compare(Name, that.Name) < 0)
             {
-                Console.WriteLine($"{Name} String A below as B string alphabetically {Name}.");
+                Console.WriteLine($"{Name} below as alphabetically {that.Name}.");
             }
-            else if (Name.CompareTo(Name) > 0)
+            else if (string.Compare(Name, that.Name) > 0)
             {
-                Console.WriteLine($"{Name} String A above as B string alphabetically {Name}.");
+                Console.WriteLine($"{Name} above as alphabetically {that.Name}.");
             }
-            return int.Parse(Name);
+            return string.Compare(Name, that.Name);
         }
     }
 }
