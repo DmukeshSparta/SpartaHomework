@@ -6,7 +6,7 @@ namespace ComparableInterface
     {
         static void Main(string[] args)
         {
-/*            var a = new Item();
+            var a = new Item();
             var b = new Item();
             a.Name = "Bob";
             b.Name = "Carly";
@@ -16,7 +16,7 @@ namespace ComparableInterface
             Console.WriteLine("{0} compared to {1} is {2}", a.Name, b.Name, a.CompareTo(b));
             a.Name = "Edward";
             b.Name = "Carly";
-            Console.WriteLine("{0} compared to {1} is {2}", a.Name, b.Name, a.CompareTo(b));*/
+            Console.WriteLine("{0} compared to {1} is {2}", a.Name, b.Name, a.CompareTo(b));
 
             Comparison comp = new Comparison();
             Comparison comp1 = new Comparison();
