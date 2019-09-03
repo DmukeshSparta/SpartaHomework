@@ -1,0 +1,14 @@
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\bin\Debug\ComparableInterface.exe.config
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\bin\Debug\ComparableInterface.exe
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\bin\Debug\ComparableInterface.pdb
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\obj\Debug\ComparableInterface.csprojAssemblyReference.cache
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\obj\Debug\ComparableInterface.csproj.CoreCompileInputs.cache
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\obj\Debug\ComparableInterface.exe
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\obj\Debug\ComparableInterface.pdb
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\bin\Debug\ComparableInterface.exe.config
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\bin\Debug\ComparableInterface.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\bin\Debug\ComparableInterface.pdb
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\obj\Debug\ComparableInterface.csprojAssemblyReference.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\obj\Debug\ComparableInterface.csproj.CoreCompileInputs.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\obj\Debug\ComparableInterface.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\ComparableInterface\ComparableInterface\obj\Debug\ComparableInterface.pdb
