@@ -55,10 +55,10 @@ namespace CollectionsHomework
             {
                 for (int y = 1; y < cube3D.GetLength(1); y++)
                 {
-                    for (int z = 1; y < cube3D.GetLength(2); z++)
+                    for (int z = 1; z < cube3D.GetLength(2); z++)
                     {
                         cube3D[x, y, z] = x * y * z;
-                        Console.WriteLine("Finally output the value at: " + cube3D[x, y, z]);
+                        Console.WriteLine("Finally output the value at: {0} + {1} + {2} = " + cube3D[x, y, z]);
                     }
                 }
             }
@@ -76,11 +76,11 @@ namespace CollectionsHomework
             {
                 for (int y = 1; y < cube3D.GetLength(1); y++)
                 {
-                    for (int z = 1; y < cube3D.GetLength(2); z++)
+                    for (int z = 1; z < cube3D.GetLength(2); z++)
                     {
                         cube3D[x, y, z] = x * y * z;
                         List01.Add(cube3D[x, y, z]);
-                        Console.WriteLine("Finally output the value at: " + cube3D[x, y, z]);
+                        Console.WriteLine("Finally output the value at: {0} + {1} + {2} = " + cube3D[x, y, z]);
                     }
                 }
             }
@@ -117,6 +117,8 @@ class QueueCube
     public void CubeCount()
     {
         Queue<int> qd = new Queue<int>();
+
+        
 
 
 
