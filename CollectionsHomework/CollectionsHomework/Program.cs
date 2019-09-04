@@ -58,7 +58,7 @@ namespace CollectionsHomework
                     for (int z = 1; z < cube3D.GetLength(2); z++)
                     {
                         cube3D[x, y, z] = x * y * z;
-                        Console.WriteLine("Finally output the value at: {0} + {1} + {2} = " + cube3D[x, y, z]);
+                        Console.WriteLine("Finally output the value at: " + cube3D[x, y, z]);
                     }
                 }
             }
@@ -69,7 +69,7 @@ namespace CollectionsHomework
         public void AddClass()
         {
             List<int> List01 = new List<int>();
-            
+
             int[,,] cube3D = new int[10, 10, 10];
 
             for (int x = 1; x < cube3D.GetLength(0); x++)
@@ -80,62 +80,76 @@ namespace CollectionsHomework
                     {
                         cube3D[x, y, z] = x * y * z;
                         List01.Add(cube3D[x, y, z]);
-                        Console.WriteLine("Finally output the value at: {0} + {1} + {2} = " + cube3D[x, y, z]);
+                        Console.WriteLine("Finally output the value at: " + cube3D[x, y, z]);
                     }
                 }
             }
 
-        int result = List01.Sum();
-        Console.WriteLine("Sum of the list = {0}", result);
+            int result = List01.Sum();
+            Console.WriteLine("Sum of the list = {0}", result);
         }
-}
-class DicitonaryCountry
-{
-    public void Countries()
+    }
+    class DicitonaryCountry
     {
-        Dictionary<string, string> My_Dictionary = new Dictionary<string, string>();
-        My_Dictionary.Add("England", "London");
-        My_Dictionary.Add("Japan", "Tokyo");
-        My_Dictionary.Add("India", "Mumbai");
-        My_Dictionary.Add("New Zealand", "Auckland");
-        My_Dictionary.Add("Austria", "Vienna");
-        My_Dictionary.Add("Portugal", "Lisbon");
-        My_Dictionary.Add("Spain", "Mardid");
-        My_Dictionary.Add("France", "Paris");
-        My_Dictionary.Add("Canada", "Vancover");
-        My_Dictionary.Add("Scotland", "Glasgow");
-
-        foreach (var country in My_Dictionary)
+        public void Countries()
         {
-            Console.WriteLine("Country: {0} \nCity: {1}\n", country.Key, country.Value);
+            Dictionary<string, string> My_Dictionary = new Dictionary<string, string>();
+            My_Dictionary.Add("England", "London");
+            My_Dictionary.Add("Japan", "Tokyo");
+            My_Dictionary.Add("India", "Mumbai");
+            My_Dictionary.Add("New Zealand", "Auckland");
+            My_Dictionary.Add("Austria", "Vienna");
+            My_Dictionary.Add("Portugal", "Lisbon");
+            My_Dictionary.Add("Spain", "Mardid");
+            My_Dictionary.Add("France", "Paris");
+            My_Dictionary.Add("Canada", "Vancover");
+            My_Dictionary.Add("Scotland", "Glasgow");
+
+            foreach (var country in My_Dictionary)
+            {
+                Console.WriteLine("Country: {0} \nCity: {1}\n", country.Key, country.Value);
+            }
+        }
+
+    }
+    class QueueCube
+    {
+        public void CubeCount()
+        {
+            Queue<int> qd = new Queue<int>();
+
+            for (int i = 1; i < 100; i++)
+            {
+                qd.Enqueue(i*i*i);
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                qd.Dequeue();
+            }
+
+            int result = qd.Sum();
+            Console.WriteLine("Sum of the list = {0}", result);
         }
     }
-
-}
-class QueueCube
-{
-    public void CubeCount()
+    class StackCount
     {
-        Queue<int> qd = new Queue<int>();
+        public void CountStack()
+        {
+            Stack<int> stk = new Stack<int>();
 
-        
+            for (int i = 1; i < 100; i++)
+            {
+                stk.Push(i*i*i);
+            }
 
+            for (int i = 1; i < 10; i++)
+            {
+                stk.Pop();
+            }
 
-
-
-        
-        //Console.WriteLine("Sum of the list = {0}", result);
+            int result = stk.Sum();
+            Console.WriteLine("Sum of the list = {0}", result);
+        }
     }
-}
-class StackCount
-{
-    public void CountStack()
-    {
-        Stack<int> stk = new Stack<int>();
-
-
-
-        //Console.WriteLine("Sum of the list = {0}", result);
-    }
-}
 }
