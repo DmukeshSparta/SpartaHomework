@@ -1,0 +1,14 @@
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\bin\Debug\CollectionsHomework.exe.config
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\bin\Debug\CollectionsHomework.exe
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\bin\Debug\CollectionsHomework.pdb
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\obj\Debug\CollectionsHomework.csprojAssemblyReference.cache
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\obj\Debug\CollectionsHomework.csproj.CoreCompileInputs.cache
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\obj\Debug\CollectionsHomework.exe
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\obj\Debug\CollectionsHomework.pdb
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\bin\Debug\CollectionsHomework.exe.config
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\bin\Debug\CollectionsHomework.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\bin\Debug\CollectionsHomework.pdb
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\obj\Debug\CollectionsHomework.csprojAssemblyReference.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\obj\Debug\CollectionsHomework.csproj.CoreCompileInputs.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\obj\Debug\CollectionsHomework.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CollectionsHomework\CollectionsHomework\obj\Debug\CollectionsHomework.pdb
