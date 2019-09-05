@@ -1,0 +1,7 @@
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPFHomework\bin\Debug\CalculatorWPFHomework.exe.config
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPFHomework\bin\Debug\CalculatorWPFHomework.exe
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPFHomework\bin\Debug\CalculatorWPFHomework.pdb
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPFHomework\obj\Debug\CalculatorWPFHomework.csprojAssemblyReference.cache
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPFHomework\obj\Debug\CalculatorWPFHomework.csproj.CoreCompileInputs.cache
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPFHomework\obj\Debug\CalculatorWPFHomework.exe
+C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPFHomework\obj\Debug\CalculatorWPFHomework.pdb
