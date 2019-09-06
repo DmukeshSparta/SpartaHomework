@@ -18,8 +18,26 @@ namespace DatabaseProject
             try
             {
                 conn.Open();
-                //Create.CreateTable();
-                Update.UpdateTable();
+                int options = 0;
+
+                Console.WriteLine("Select a option: 1. Create, 2. Read, 3. Update, 4. Delete");
+                options = Convert.ToInt32(Console.ReadLine());
+
+                switch (options)
+                {
+                    case 1:
+                        Create.CreateTable();
+                        break;
+                    case 2:
+                        Read.ReadTable();
+                        break;
+                    case 3:
+                        Update.UpdateTable();
+                        break;
+                    case 4:
+                        Delete.DeleteTable();
+                        break;
+                }
             }
             catch (SqlException ex)
             {
@@ -66,6 +84,7 @@ namespace DatabaseProject
         public static void ReadTable()
         {
             string readstring = string.Format("SELECT * FROM Games");
+            Console.WriteLine(readstring);
             string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=GameProject;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection conn = new SqlConnection(connectionString);
 
@@ -89,8 +108,8 @@ namespace DatabaseProject
     {
         public static void UpdateTable()
         {
-            Game game1 = new Game("","","","");
-            string updatestring = string.Format("UPDATE Games SET GameName = '{0}' WHERE GameName = 'Monster world'",game1.Name);
+            string updatestring = string.Format("UPDATE Games SET GameName = 'MonsterWorld' WHERE GameName = 'MHW'");
+            Console.WriteLine(updatestring);
             string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=GameProject;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection conn = new SqlConnection(connectionString);
 
@@ -114,7 +133,7 @@ namespace DatabaseProject
     {
         public static void DeleteTable()
         {
-            string deletestring = string.Format("DELETE FROM Games WHERE reivew = 'average1'");
+            string deletestring = string.Format("DELETE FROM Games WHERE GameName = '#'");
             string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=GameProject;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection conn = new SqlConnection(connectionString);
 

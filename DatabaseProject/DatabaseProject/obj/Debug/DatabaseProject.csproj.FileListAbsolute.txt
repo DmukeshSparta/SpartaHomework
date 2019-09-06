@@ -5,3 +5,10 @@ C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Week4\Day4\
 C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Week4\Day4\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.csproj.CoreCompileInputs.cache
 C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Week4\Day4\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.exe
 C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Week4\Day4\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.pdb
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\DatabaseProject\DatabaseProject\bin\Debug\DatabaseProject.exe.config
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\DatabaseProject\DatabaseProject\bin\Debug\DatabaseProject.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\DatabaseProject\DatabaseProject\bin\Debug\DatabaseProject.pdb
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.csprojAssemblyReference.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.csproj.CoreCompileInputs.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\DatabaseProject\DatabaseProject\obj\Debug\DatabaseProject.pdb
