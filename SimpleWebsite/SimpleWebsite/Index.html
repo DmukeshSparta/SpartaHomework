@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Dipak Youtube </title>
+    <link rel="stylesheet" href="CSS/index.css" />
+    <script src="Javascript/index.js"> </script>
+
+</head>
+<body>
+<!-- Page content -->
+    <div>
+        <div class="topnav">
+            <a href="#imagesection">Image Section</a>
+            <a href="#videosection">Video Section</a>
+            <a href="#audiosection">Audio section</a>
+        </div>
+
+        <br><br>
+        <hr>
+        <br><br>
+        <!-- image section Section -->
+        <div class="imagesection">
+            <h1> Image section </h1>
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/mhw1.jpg">
+                <div class="text">Monster Hunter image 1</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/mhw2.jpg">
+                <div class="text">Monster Hunter image 2</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/mhw3.png">
+                <div class="text">Monster Hunter image 3</div>
+            </div>
+
+        <hr>
+
+        <!-- video Section -->
+        <div class="videosection">
+            <h1> Video section </h1>
+            <button onclick="playPause()">Play/Pause</button>
+            <button onclick="makeBig()">Big</button>
+            <button onclick="makeSmall()">Small</button>
+            <button onclick="makeNormal()">Normal</button>
+            <br><br>
+            <h2>Video 1</h2>
+            <iframe id="video1"  width="560" height="315" src="https://www.youtube.com/embed/KtdbhdXEhZM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>Video 2</h2>
+            <iframe id="video1"  width="560" height="315" src="https://www.youtube.com/embed/ETVpLIp64_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2>Video 3></h2>
+            <iframe id="video1"  width="560" height="315" src="https://www.youtube.com/embed/GptqQedGTY4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <hr>
+
+        <div class="audiosection">
+            <h1> Audio Section </h1>
+            <h2> Audio 1</h2>
+            <audio controls autoplay>
+                <source src="audio/bensound-adventure.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <h2> Audio 2</h2>
+            <audio controls autoplay>
+                <source src="audio/bensound-epic.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <h2> Audio 3</h2>
+            <audio controls autoplay>
+                <source src="audio/bensound-theduel.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio> <!-- End page content -->
+        </div>
+</div>
+</body>
+</html>
