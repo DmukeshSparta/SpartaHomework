@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="GameDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Materials">
+          <Key>
+            <PropertyRef Name="materialsID" />
+          </Key>
+          <Property Name="materialsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="materialsName" Type="varchar" MaxLength="50" />
+          <Property Name="dropLocation" Type="varbinary" MaxLength="50" />
+          <Property Name="highRankDrop" Type="int" />
+          <Property Name="lowRankDrop" Type="int" />
+        </EntityType>
+        <EntityType Name="Monster">
+          <Key>
+            <PropertyRef Name="monsterID" />
+          </Key>
+          <Property Name="monsterID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="monsterName" Type="varchar" MaxLength="50" />
+          <Property Name="monsterWeakness" Type="varchar" MaxLength="50" />
+          <Property Name="monsterDamage" Type="int" />
+        </EntityType>
+        <EntityType Name="Weapons">
+          <Key>
+            <PropertyRef Name="weaponsID" />
+          </Key>
+          <Property Name="weaponsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="weaponName" Type="varchar" MaxLength="50" />
+          <Property Name="weaponType" Type="varbinary" MaxLength="50" />
+          <Property Name="weaponTree" Type="varchar" MaxLength="50" />
+          <Property Name="weaponLevel" Type="int" />
+        </EntityType>
+        <EntityContainer Name="GameDatabaseModelStoreContainer">
+          <EntitySet Name="Materials" EntityType="Self.Materials" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Monster" EntityType="Self.Monster" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Weapons" EntityType="Self.Weapons" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="GameDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="GameDatabaseEntities" annotation:LazyLoadingEnabled="true" >
+          <EntitySet Name="Materials" EntityType="GameDatabaseModel.Material" />
+          <EntitySet Name="Monsters" EntityType="GameDatabaseModel.Monster" />
+          <EntitySet Name="Weapons" EntityType="GameDatabaseModel.Weapon" />
+        </EntityContainer>
+        <EntityType Name="Material">
+          <Key>
+            <PropertyRef Name="materialsID" />
+          </Key>
+          <Property Name="materialsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="materialsName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="dropLocation" Type="Binary" MaxLength="50" FixedLength="false" />
+          <Property Name="highRankDrop" Type="Int32" />
+          <Property Name="lowRankDrop" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Monster">
+          <Key>
+            <PropertyRef Name="monsterID" />
+          </Key>
+          <Property Name="monsterID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="monsterName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="monsterWeakness" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="monsterDamage" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Weapon">
+          <Key>
+            <PropertyRef Name="weaponsID" />
+          </Key>
+          <Property Name="weaponsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="weaponName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="weaponType" Type="Binary" MaxLength="50" FixedLength="false" />
+          <Property Name="weaponTree" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="weaponLevel" Type="Int32" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="GameDatabaseModelStoreContainer" CdmEntityContainer="GameDatabaseEntities" >
+          <EntitySetMapping Name="Materials">
+            <EntityTypeMapping TypeName="GameDatabaseModel.Material">
+              <MappingFragment StoreEntitySet="Materials">
+                <ScalarProperty Name="lowRankDrop" ColumnName="lowRankDrop" />
+                <ScalarProperty Name="highRankDrop" ColumnName="highRankDrop" />
+                <ScalarProperty Name="dropLocation" ColumnName="dropLocation" />
+                <ScalarProperty Name="materialsName" ColumnName="materialsName" />
+                <ScalarProperty Name="materialsID" ColumnName="materialsID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Monsters">
+            <EntityTypeMapping TypeName="GameDatabaseModel.Monster">
+              <MappingFragment StoreEntitySet="Monster">
+                <ScalarProperty Name="monsterDamage" ColumnName="monsterDamage" />
+                <ScalarProperty Name="monsterWeakness" ColumnName="monsterWeakness" />
+                <ScalarProperty Name="monsterName" ColumnName="monsterName" />
+                <ScalarProperty Name="monsterID" ColumnName="monsterID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Weapons">
+            <EntityTypeMapping TypeName="GameDatabaseModel.Weapon">
+              <MappingFragment StoreEntitySet="Weapons">
+                <ScalarProperty Name="weaponLevel" ColumnName="weaponLevel" />
+                <ScalarProperty Name="weaponTree" ColumnName="weaponTree" />
+                <ScalarProperty Name="weaponType" ColumnName="weaponType" />
+                <ScalarProperty Name="weaponName" ColumnName="weaponName" />
+                <ScalarProperty Name="weaponsID" ColumnName="weaponsID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

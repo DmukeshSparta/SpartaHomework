@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GameDatabaseModelStoreContainer" CdmEntityContainer="GameDatabaseEntities">
+    <EntitySetMapping Name="Materials">
+      <EntityTypeMapping TypeName="GameDatabaseModel.Material">
+        <MappingFragment StoreEntitySet="Materials">
+          <ScalarProperty Name="lowRankDrop" ColumnName="lowRankDrop" />
+          <ScalarProperty Name="highRankDrop" ColumnName="highRankDrop" />
+          <ScalarProperty Name="dropLocation" ColumnName="dropLocation" />
+          <ScalarProperty Name="materialsName" ColumnName="materialsName" />
+          <ScalarProperty Name="materialsID" ColumnName="materialsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Monsters">
+      <EntityTypeMapping TypeName="GameDatabaseModel.Monster">
+        <MappingFragment StoreEntitySet="Monster">
+          <ScalarProperty Name="monsterDamage" ColumnName="monsterDamage" />
+          <ScalarProperty Name="monsterWeakness" ColumnName="monsterWeakness" />
+          <ScalarProperty Name="monsterName" ColumnName="monsterName" />
+          <ScalarProperty Name="monsterID" ColumnName="monsterID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Weapons">
+      <EntityTypeMapping TypeName="GameDatabaseModel.Weapon">
+        <MappingFragment StoreEntitySet="Weapons">
+          <ScalarProperty Name="weaponLevel" ColumnName="weaponLevel" />
+          <ScalarProperty Name="weaponTree" ColumnName="weaponTree" />
+          <ScalarProperty Name="weaponType" ColumnName="weaponType" />
+          <ScalarProperty Name="weaponName" ColumnName="weaponName" />
+          <ScalarProperty Name="weaponsID" ColumnName="weaponsID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

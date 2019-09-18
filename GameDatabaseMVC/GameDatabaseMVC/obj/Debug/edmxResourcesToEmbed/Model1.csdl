@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GameDatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="GameDatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Materials" EntityType="GameDatabaseModel.Material" />
+    <EntitySet Name="Monsters" EntityType="GameDatabaseModel.Monster" />
+    <EntitySet Name="Weapons" EntityType="GameDatabaseModel.Weapon" />
+  </EntityContainer>
+  <EntityType Name="Material">
+    <Key>
+      <PropertyRef Name="materialsID" />
+    </Key>
+    <Property Name="materialsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="materialsName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dropLocation" Type="Binary" MaxLength="50" FixedLength="false" />
+    <Property Name="highRankDrop" Type="Int32" />
+    <Property Name="lowRankDrop" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Monster">
+    <Key>
+      <PropertyRef Name="monsterID" />
+    </Key>
+    <Property Name="monsterID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="monsterName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="monsterWeakness" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="monsterDamage" Type="Int32" />
+  </EntityType>
+  <EntityType Name="Weapon">
+    <Key>
+      <PropertyRef Name="weaponsID" />
+    </Key>
+    <Property Name="weaponsID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="weaponName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="weaponType" Type="Binary" MaxLength="50" FixedLength="false" />
+    <Property Name="weaponTree" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="weaponLevel" Type="Int32" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,50 @@
+﻿@model GameDatabaseMVC.Weapon
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Weapon</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.weaponName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.weaponName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.weaponType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.weaponType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.weaponTree)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.weaponTree)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.weaponLevel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.weaponLevel)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.weaponsID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

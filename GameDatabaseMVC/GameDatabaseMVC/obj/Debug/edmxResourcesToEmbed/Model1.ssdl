@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GameDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Materials">
+    <Key>
+      <PropertyRef Name="materialsID" />
+    </Key>
+    <Property Name="materialsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="materialsName" Type="varchar" MaxLength="50" />
+    <Property Name="dropLocation" Type="varbinary" MaxLength="50" />
+    <Property Name="highRankDrop" Type="int" />
+    <Property Name="lowRankDrop" Type="int" />
+  </EntityType>
+  <EntityType Name="Monster">
+    <Key>
+      <PropertyRef Name="monsterID" />
+    </Key>
+    <Property Name="monsterID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="monsterName" Type="varchar" MaxLength="50" />
+    <Property Name="monsterWeakness" Type="varchar" MaxLength="50" />
+    <Property Name="monsterDamage" Type="int" />
+  </EntityType>
+  <EntityType Name="Weapons">
+    <Key>
+      <PropertyRef Name="weaponsID" />
+    </Key>
+    <Property Name="weaponsID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="weaponName" Type="varchar" MaxLength="50" />
+    <Property Name="weaponType" Type="varbinary" MaxLength="50" />
+    <Property Name="weaponTree" Type="varchar" MaxLength="50" />
+    <Property Name="weaponLevel" Type="int" />
+  </EntityType>
+  <EntityContainer Name="GameDatabaseModelStoreContainer">
+    <EntitySet Name="Materials" EntityType="Self.Materials" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Monster" EntityType="Self.Monster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Weapons" EntityType="Self.Weapons" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

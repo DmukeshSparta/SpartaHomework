@@ -1,0 +1,51 @@
+﻿@model IEnumerable<GameDatabaseMVC.Weapon>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.weaponName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.weaponType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.weaponTree)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.weaponLevel)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.weaponName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.weaponType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.weaponTree)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.weaponLevel)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.weaponsID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.weaponsID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.weaponsID })
+        </td>
+    </tr>
+}
+
+</table>
