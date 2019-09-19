@@ -12,7 +12,7 @@
         set rs = Server.CreateObject("ADODB.recordset")
         rs.Open "SELECT * FROM Games", conn
        
-        while(resultSet != null)
+        while resultSet != null
         {
           <p>resultSet['GameName', 'genre','GameType','review']</p>
           <p>resultSet['GameName', 'genre','GameType','review']</p>

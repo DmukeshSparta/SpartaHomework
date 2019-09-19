@@ -17,3 +17,22 @@ C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\Calcula
 C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\bin\Debug\CalculatorWPFHomework.pdb
 C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\bin\Debug\CalculatorWPFHomework.exe.config
 C:\Users\OPDipak\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF.csproj.CopyComplete
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\bin\Debug\CalculatorWPF.exe.config
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\bin\Debug\CalculatorWPF.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\bin\Debug\CalculatorWPF.pdb
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\bin\Debug\CalculatorWPFHomework.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\bin\Debug\CalculatorWPFHomework.pdb
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\bin\Debug\CalculatorWPFHomework.exe.config
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF.csprojAssemblyReference.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\App.g.cs
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF_MarkupCompile.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF_MarkupCompile.lref
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\MainWindow.baml
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF.g.resources
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF.Properties.Resources.resources
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF.csproj.GenerateResource.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF.csproj.CoreCompileInputs.cache
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF.csproj.CopyComplete
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF.exe
+C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\CalculatorWPFHomework\CalculatorWPF\obj\Debug\CalculatorWPF.pdb

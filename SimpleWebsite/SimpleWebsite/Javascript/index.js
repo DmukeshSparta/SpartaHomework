@@ -17,14 +17,14 @@ function showSlides() {
 var myVideo = document.getElementById("video1"); 
 
 function playPause() { 
-  if (myVideo.paused) 
-    myVideo.play(); 
-  else 
-    myVideo.pause(); 
+    if (myVideo.paused)
+        myVideo.play();
+    else
+        myVideo.playPause();
 } 
 
 function makeBig() { 
-    myVideo.width = 560; 
+    myVideo.width = 1000; 
 } 
 
 function makeSmall() { 
