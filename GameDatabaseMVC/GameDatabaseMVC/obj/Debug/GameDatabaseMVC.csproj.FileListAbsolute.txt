@@ -73,7 +73,6 @@ C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\Ga
 C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\GameDatabaseMVC\GameDatabaseMVC\bin\Newtonsoft.Json.xml
 C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\GameDatabaseMVC\GameDatabaseMVC\bin\Antlr3.Runtime.pdb
 C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\GameDatabaseMVC\GameDatabaseMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\GameDatabaseMVC\GameDatabaseMVC\obj\Debug\GameDatabaseMVC.csprojAssemblyReference.cache
 C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\GameDatabaseMVC\GameDatabaseMVC\obj\Debug\GameDatabaseMVC.csproj.CoreCompileInputs.cache
 C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\GameDatabaseMVC\GameDatabaseMVC\obj\Debug\GameDatabaseMVC.csproj.CopyComplete
 C:\Users\Dipak Mukesh\OneDrive - Sparta Global Limited\Engineering40\Homework\GameDatabaseMVC\GameDatabaseMVC\obj\Debug\GameDatabaseMVC.dll
