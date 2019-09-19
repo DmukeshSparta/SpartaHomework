@@ -45,3 +45,11 @@ textarea {
 .navbar-inverse .navbar-brand {
     color: black;
 }
+
+h2{
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
